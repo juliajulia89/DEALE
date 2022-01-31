@@ -18,6 +18,7 @@ $ npm start
 | GET | [beers] | Get all the beers from the DB 
 <br/>
 | GET | /:id    | { beer } | Get the a single 
+<br/>
 | GET | /random | { beer } | Get a random beer from the DB   
  
 
