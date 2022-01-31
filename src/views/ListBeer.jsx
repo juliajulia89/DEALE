@@ -6,7 +6,7 @@ import Spinner from '../components/Spinner';
 
 function ListBeer() {
   const [beers, setBeers] = useState([]);
-  const [query, setQuery] = useState('');
+  const [query] = useState('');
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -18,7 +18,6 @@ function ListBeer() {
         setBeers(beersFromApi.data);
         setIsLoading(false);
       } catch (error) {
-        console.log(error);
       }
     };
     getBeersFromApi();
