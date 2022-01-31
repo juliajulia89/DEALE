@@ -10,8 +10,9 @@ The application should be a Single Page Application so that the navigation is do
 - To get a specified beer details by id:
 https://api.punkapi.com/v2/beers?ids={id}
 
-
 ## 
+npm install
+npm run start
 
 
 ## 
