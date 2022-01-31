@@ -23,6 +23,9 @@ Open http://localhost:3003 with your browser to see the result.
 | GET | /:id    | { beer } | Get the a single 
 <br/>
 | GET | /random | { beer } | Get a random beer from the DB   
+
+##
+change to pagination braanch to see attempts to implement pagination 
  
 
 
