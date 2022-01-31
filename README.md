@@ -11,8 +11,11 @@ The application should be a Single Page Application so that the navigation is do
 https://api.punkapi.com/v2/beers?ids={id}
 
 ## 
-$ npm install
-$ npm start
+ npm install
+ <br/>
+ npm start
+<br/>
+Open http://localhost:3003 with your browser to see the result.
 
 ##
 | GET | [beers] | Get all the beers from the DB 
