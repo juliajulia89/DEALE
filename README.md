@@ -15,9 +15,11 @@ $ npm install
 $ npm start
 
 ##
-| GET    | /                   | [beers]                                                | Get all the beers from the DB 
-| GET    | /:id                | { beer }                                               | Get the a single/specific beer   
- | GET    | /random             | { beer }                                               | Get a random beer from the DB   
+| GET | [beers] | Get all the beers from the DB 
+<br/>
+| GET | /:id    | { beer } | Get the a single/specific beer   
+<br/>
+| GET | /random | { beer } | Get a random beer from the DB   
  
 
 
