@@ -18,8 +18,13 @@ https://api.punkapi.com/v2/beers?ids={id}
 6. Using github would be great if we can see incremental steps.
 
 ## 
+$ npm install
+$ npm start
 
-
-## 
+##
+| GET    | /                   | [beers]                                                | Get all the beers from the DB 
+| GET    | /:id                | { beer }                                               | Get the a single/specific beer   
+ | GET    | /random             | { beer }                                               | Get a random beer from the DB   
+ 
 
 
