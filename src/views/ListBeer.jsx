@@ -34,7 +34,7 @@ function ListBeer() {
       })}
       {beers.length === 0 && (
         <p className="w-10/12 mx-auto">
-          Oups we run out this one! Don't worry, there are plenty more
+          Oops we run out this one! Don't worry, there are plenty more
           <span role="img" aria-label="beer emoji">
             🍻
           </span>

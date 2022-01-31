@@ -11,7 +11,7 @@ function HomePage() {
         <span role="img" aria-label="beer emoji">
           🍻
         </span>
-        Deale Beer Challenge{" "}
+        Deale Beer Challenge
         <span role="img" aria-label="beer emoji">
           🍻
         </span>

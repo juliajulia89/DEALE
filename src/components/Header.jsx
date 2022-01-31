@@ -6,7 +6,7 @@ function Header() {
     <header className="bg-blue-500 p-6">
       <Link to="/">
         <span className="flex justify-center">
-          <i className="fas fa-home fa-2x" style={{ color: 'white' }}></i>
+          <i className="fas fa-home fa-2x" style={{ color: "#FDC55C" }}></i>
         </span>
       </Link>
     </header>
@@ -14,3 +14,4 @@ function Header() {
 }
 
 export default Header;
+//#0D2A6B
