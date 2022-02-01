@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import allBeersImage from "./../assets/allBeersImage.png";
 import randomBeerImage from "./../assets/randomBeerImage.png";
+import newBeerImage from "../assets/newBeerImage.png"
 
 function HomePage() {
   return (
@@ -40,6 +41,19 @@ function HomePage() {
             <div className="mx-4 my-2 py-2">
               <h1 className="text-lg text-black font-semibold">Random Beer</h1>
               <p>Feeling adventurous? Pick a random beer!</p>
+            </div>
+          </Link>
+        </div>
+        <div className="w-full my-4 rounded overflow-hidden border shadow shadow-lg ">
+          <Link to="/new-beer">
+            <img
+              className="w-full object-contain h-1/4"
+              src={newBeerImage}
+              alt="Add a new beer to the list"
+            />
+            <div className="mx-4 my-2 py-2">
+              <h1 className="text-lg text-black font-semibold">Add Beer</h1>
+              <p>Brewing your own beer? Got a favourite? Add it to the list!</p>
             </div>
           </Link>
         </div>
