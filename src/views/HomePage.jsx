@@ -7,7 +7,7 @@ import randomBeerImage from "./../assets/randomBeerImage.png";
 function HomePage() {
   return (
     <>
-      <h1 className="text-4xl font-normal leading-normal text-blue-500 my-8">
+      <h1 className="text-4xl font-normal leading-normal text-blue-800 my-8">
         <span role="img" aria-label="beer emoji">
           🍻
         </span>
