@@ -27,7 +27,7 @@ function RandomBeer() {
     <>
       <Header />
       <div className="my-4">
-        <h1 className="text-4xl font-normal leading-normal mt-0 mb-2 text-blue-500">
+        <h1 className="text-4xl font-normal leading-normal mt-0 mb-2 text-blue-800">
           Random Beer
         </h1>
         {isLoading && <Spinner />}
