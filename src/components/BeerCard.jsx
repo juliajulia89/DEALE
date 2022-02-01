@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function BeerCard({ beerDetails }) {
-  const { image_url, name, tagline, contributed_by, _id } = beerDetails;
+  const { image_url, name, tagline, contributed_by } = beerDetails;
 
   return (
     <Link to={`/beers/${beerDetails.id}`}>
