@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import axios from 'axios';
-import BeerDetails from '../components/BeerDetails';
-import Header from '../components/Header';
-import Spinner from '../components/Spinner';
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import axios from "axios";
+import BeerDetails from "../components/BeerDetails";
+import Header from "../components/Header";
+import Spinner from "../components/Spinner";
 
 function SingleBeer() {
   const [beer, setBeer] = useState({});
@@ -14,7 +14,7 @@ function SingleBeer() {
     const getBeersFromApi = async () => {
       try {
         const beersFromApi = await axios.get(
-          `https://api.punkapi.com/v2/beers?ids={id}`
+          `https://api.punkapi.com/v2/beers/${beerId}`
         );
         setBeer(beersFromApi.data);
         setIsLoading(false);
@@ -22,7 +22,6 @@ function SingleBeer() {
     };
     getBeersFromApi();
   }, [beerId]);
-
   return (
     <div>
       <Header />
