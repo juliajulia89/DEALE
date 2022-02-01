@@ -8,28 +8,28 @@ function SingleBeerDetails(props) {
       <div className="w-full flex justify-center my-8">
         <img
           className="object-contain w-1/3"
-          src={beerDetails.image_url}
-          alt={beerDetails.name}
+          src={beerDetails[0].image_url}
+          alt={beerDetails[0].name}
         />
       </div>
       <div className="flex justify-around my-4">
         <div>
           <h1 className="text-lg text-black font-semibold">
-            {beerDetails.name}
+            {beerDetails[0].name}
           </h1>
           <p className="text-base font-medium text-gray-500">
-            {beerDetails.tagline}
+            {beerDetails[0].tagline}
           </p>
         </div>
         <div className="flex flex-col justify-items-end">
           <p className="text-base font-medium text-gray-500">
-            {beerDetails.attenuation_level}
+            {beerDetails[0].attenuation_level}
           </p>
-          <p>{beerDetails.first_brewed}</p>
-          <p>{beerDetails.description}</p>
-          <p>{beerDetails.food_pairing}</p>
-          <p>{beerDetails.brewers_tips}</p>
-          <p>{beerDetails.contributed_by}</p>
+          <p>{beerDetails[0].first_brewed}</p>
+          <p>{beerDetails[0].description}</p>
+          <p>{beerDetails[0].food_pairing}</p>
+          <p>{beerDetails[0].brewers_tips}</p>
+          <p>{beerDetails[0].contributed_by}</p>
         </div>
       </div>
     </div>
