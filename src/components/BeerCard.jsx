@@ -16,7 +16,7 @@ function BeerCard({ beerDetails }) {
           <h1 className="text-lg text-black font-semibold">{name}</h1>
           <p className="text-base font-medium text-gray-500">{tagline}</p>
           <p>
-            <strong>Created by:</strong> {contributed_by || "Unknown creator"}
+            <strong>Created by:</strong> {contributed_by}
           </p>
         </div>
       </div>

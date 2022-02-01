@@ -19,17 +19,15 @@ function SingleBeerDetails(props) {
           </h1>
           <p className="text-base font-medium text-gray-500">
             {beerDetails[0].tagline}
+            <strong>Attenuation level:</strong> {beerDetails[0].attenuation_level}
           </p>
         </div>
         <div className="flex flex-col justify-items-end">
-          <p className="text-base font-medium text-gray-500">
-            {beerDetails[0].attenuation_level}
-          </p>
-          <p>{beerDetails[0].first_brewed}</p>
+          <p className="text-base font-medium text-gray-500"></p>
+
           <p>{beerDetails[0].description}</p>
           <p>{beerDetails[0].food_pairing}</p>
           <p>{beerDetails[0].brewers_tips}</p>
-          <p>{beerDetails[0].contributed_by}</p>
         </div>
       </div>
     </div>
