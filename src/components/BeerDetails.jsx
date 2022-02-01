@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SingleBeerDetails(props) {
   const { beerDetails } = props;
@@ -26,6 +27,11 @@ function SingleBeerDetails(props) {
           <p>{beerDetails[0].attenuation_level}</p>
         </div>
       </div>
+      <Link to="/beers">
+        <p className="text-base font-medium text-gray-500">
+          Go back to the list
+        </p>
+      </Link>
     </div>
   );
 }
