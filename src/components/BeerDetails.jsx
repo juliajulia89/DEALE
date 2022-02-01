@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function SingleBeerDetails(props) {
   const { beerDetails } = props;
@@ -28,7 +28,7 @@ function SingleBeerDetails(props) {
         </div>
       </div>
       <Link to="/beers">
-        <p className="text-base font-medium text-gray-500">
+        <p className="text-base font-medium text-gray-500 animate-pulse ">
           Go back to the list
         </p>
       </Link>
