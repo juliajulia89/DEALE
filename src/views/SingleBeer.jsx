@@ -18,7 +18,9 @@ function SingleBeer() {
         );
         setBeer(beersFromApi.data);
         setIsLoading(false);
-      } catch (error) {}
+      } catch (error) {
+         console.log(error, "We apologize, server error, please try again later");
+      }
     };
     getBeersFromApi();
   }, [beerId]);

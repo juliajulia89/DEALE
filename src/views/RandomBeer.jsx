@@ -17,7 +17,10 @@ function RandomBeer() {
         setRandomBeer(beersFromApi.data);
         setIsLoading(false);
       } catch (error) {
-        
+         console.log(
+           error,
+           "We apologize, server error, please try again later"
+         );
       }
     };
     getRandomBeer();
