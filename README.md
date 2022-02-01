@@ -20,12 +20,13 @@ Open http://localhost:3003 with your browser to see the result.
 ##
 | GET | [beers] | Get all the beers from the DB 
 <br/>
-| GET | /:id    | { beer } | Get the a single 
+| GET | /:id    | { beer } | Get a single beer
 <br/>
-| GET | /random | { beer } | Get a random beer from the DB   
+| GET | /random | { beer } | Get a random beer from the DB as an extra feature 
 
 ##
 Change to pagination branch to see attempts to implement pagination.
+Change to NewBeer branch to see attempts to implement adding a new beer 
  
 
 
