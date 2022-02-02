@@ -25,9 +25,9 @@ Open http://localhost:3003 with your browser to see the result.
 | GET | /random | { beer } | Get a random beer from the DB as an extra feature 
 
 ##
-React App
-Styled using Tailwind 
-Deployed on heroku 
+React App </br>
+Styled using Tailwind </br>
+Deployed on Netlify => https://deale-beers.netlify.app/
 ##
 Change to pagination branch to see attempts to implement pagination.
 Change to NewBeer branch to see attempts to implement adding a new beer 
